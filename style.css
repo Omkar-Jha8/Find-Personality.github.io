@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+.mainbox {
+    border: 2px solid black;
+    width: 80vh;
+    height: 80vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+label {
+    font-size: 2rem;
+}
+
+img {
+    padding-top: 2rem;
+    width: 25vw;
+    height: 45vh;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+input {
+    width: 20vw;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: gainsboro;
+    border: .5px solid black;
+}
+
+@media (max-width:740px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Nunito', sans-serif;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: aquamarine;
+    }
+    h1 {
+        margin-top: 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .mainbox {
+        border: 2px solid black;
+        width: 40vh;
+        height: 55vh;
+        margin-top: 1.5rem;
+        padding-top: 3rem;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: -25rem;
+    }
+    label {
+        font-size: 1.3rem;
+    }
+    img {
+        padding-top: 2rem;
+        width: 25vh;
+        height: 25vh;
+    }
+    button {
+        font-size: 1.5rem;
+        padding: 5px 10px;
+    }
+    button:hover {
+        background-color: black;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    input {
+        width: 50vw;
+        font-size: 1.5rem;
+        outline: none;
+        background-color: gainsboro;
+        border: .5px solid black;
+    }
+}
